@@ -19,3 +19,7 @@
 @media (min-width: 1199px) {
   .port-item {
     padding: 2em !important; } }
+
+@media (max-width: 480px) {
+  .port-item {
+    padding: 1em !important; } }
