@@ -72,7 +72,11 @@
                   >
                     <i class="fa fa-folder-open d-block"></i>Work
                   </div>
-                  <div class="port-item p-4 bg-danger">
+                  <div
+                    class="port-item p-4 bg-danger"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
                     <i class="fa fa-envelope d-block"></i>Contact
                   </div>
                 </div>
@@ -353,6 +357,64 @@
               /></a>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="collapse" id="contact">
+        <div class="card card-body bg-danger text-white py-5">
+          <h2>Contact</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page
+          </p>
+        </div>
+        <div class="card card-body py-5">
+          <h3>Get in touch</h3>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page
+          </p>
+          <form action="">
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon bg-danger text-white">
+                  <i class="fa fa-user"></i>
+                </span>
+                <input
+                  type="text"
+                  class="form-control bg-dark text-white"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon bg-danger text-white">
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <input
+                  type="email"
+                  class="form-control bg-dark text-white"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon bg-danger text-white">
+                  <i class="fa fa-pencil"></i>
+                </span>
+                <textarea
+                  rows="5"
+                  type="text"
+                  class="form-control bg-dark text-white"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-danger btn-block btn-lg"
+            />
+          </form>
         </div>
       </div>
       <!-- Footer -->
